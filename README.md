@@ -1,4 +1,6 @@
 homeframeworkUseCase
 ====================
 
-A use case of homeframework
+An example of using homeframework
+
+

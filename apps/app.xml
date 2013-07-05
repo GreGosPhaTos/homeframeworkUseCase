@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<definitions>
+    <reader>PathReader</reader>
+    <route>
+        <parser>
+            <format>XML</format>
+        </parser>
+        <file>/var/www/homeframeworkUseCase/apps/{appName}/config/routes.xml</file>
+    </route>
+    <entityManager>
+        <api>PDO</api>
+        <sgbd>MySql</sgbd>
+        <namespace>\\HomeFramework\\Models\\</namespace>
+    </entityManager>
+    <http>
+        <response>
+            <format>html</format>
+        </response>
+    </http>
+    <template>
+        <layout>/var/www/homeframeworkUseCase/apps/{appName}/templates/layout.php</layout>
+        <view>/var/www/homeframeworkUseCase/apps/{appName}/modules/{module}/views/{view}.php</view>
+    </template>
+</definitions>

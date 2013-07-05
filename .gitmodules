@@ -1,0 +1,3 @@
+[submodule "vendor/homeframework"]
+	path = vendor/homeframework
+	url = git@github.com:GreGosPhaTos/homeframework.git

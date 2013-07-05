@@ -1,0 +1,10 @@
+tmp/*
+.DS_Store
+.buildpath
+.idea
+.project
+.settings/
+/build/
+/conf/configuration.php
+*.swp
+!empty
