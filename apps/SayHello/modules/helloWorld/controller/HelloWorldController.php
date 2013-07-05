@@ -1,5 +1,5 @@
 <?php
-namespace Test\modules\helloWorld\controller;
+namespace SayHello\modules\helloWorld\controller;
 
 use \HomeFramework\controller\BackController;
 
