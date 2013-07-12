@@ -10,7 +10,6 @@
     <entityManager>
         <api>PDO</api>
         <sgbd>MySql</sgbd>
-        <namespace>\\HomeFramework\\Models\\</namespace>
     </entityManager>
     <http>
         <response>
